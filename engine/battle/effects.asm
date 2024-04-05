@@ -1087,9 +1087,6 @@ ChargeMoveEffectText:
 	text_far _ChargeMoveEffectText
 	text_asm
 	ld a, [wChargeMoveNum]
-	cp RAZOR_WIND
-	ld hl, MadeWhirlwindText
-	jr z, .gotText
 	cp SOLARBEAM
 	ld hl, TookInSunlightText
 	jr z, .gotText
@@ -1106,10 +1103,6 @@ ChargeMoveEffectText:
 	ld hl, DugAHoleText
 .gotText
 	ret
-
-MadeWhirlwindText:
-	text_far _MadeWhirlwindText
-	text_end
 
 TookInSunlightText:
 	text_far _TookInSunlightText
