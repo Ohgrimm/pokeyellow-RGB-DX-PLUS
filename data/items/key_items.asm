@@ -6,7 +6,7 @@ KeyItemFlags:
 	dbit FALSE ; POKE_BALL
 	dbit TRUE  ; TOWN_MAP
 	dbit TRUE  ; BICYCLE
-	dbit TRUE  ; SURFBOARD
+	dbit FALSE ; SURFBOARD / LINKING_CORD
 	dbit TRUE  ; SAFARI_BALL
 	dbit TRUE  ; POKEDEX
 	dbit FALSE ; MOON_STONE
@@ -28,7 +28,7 @@ KeyItemFlags:
 	dbit TRUE  ; MARSHBADGE
 	dbit TRUE  ; VOLCANOBADGE
 	dbit TRUE  ; EARTHBADGE
-	dbit FALSE ; ESCAPE_ROPE
+	dbit TRUE  ; ESCAPE_ROPE
 	dbit FALSE ; REPEL
 	dbit TRUE  ; OLD_AMBER
 	dbit FALSE ; FIRE_STONE
