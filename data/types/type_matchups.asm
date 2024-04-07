@@ -24,7 +24,6 @@ TypeEffects:
 	db GROUND,       POISON,       SUPER_EFFECTIVE
 	db GROUND,       ROCK,         SUPER_EFFECTIVE
 	db GROUND,       BUG,          NOT_VERY_EFFECTIVE
-	db GROUND,       STEEL,        SUPER_EFFECTIVE
 	db GROUND,       FIRE,         SUPER_EFFECTIVE
 	db GROUND,       GRASS,        NOT_VERY_EFFECTIVE
 	db GROUND,       ELECTRIC,     SUPER_EFFECTIVE
